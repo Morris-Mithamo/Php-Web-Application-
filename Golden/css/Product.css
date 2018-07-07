@@ -1,0 +1,150 @@
+body
+{
+  font-family:helvetica;
+}
+.Delete
+{
+  position:absolute;
+  right:2%;
+}
+th
+{
+  font-family:helvetica;
+  font-size: 14px;
+  padding: 10px;
+  background-color:#0080FF;
+  color:#ffffff;
+}
+td
+{
+  padding: 0.0px;
+  font-family:Font;
+  text-align: center;
+}
+tr:nth-child(odd){background-color:#B0DFE5;}
+label
+{
+  font-family: font;
+  padding-left: 8px;
+}
+.currency
+{
+  font-family: font;
+  padding-left: 8px;
+}
+b
+{
+  font-family: helvetica;
+  font-size: 14px;
+}
+input[type="text"]
+{
+  font-family:Font;
+
+}
+input[type='submit']
+{
+  padding:12px;
+  width: 200px;
+  margin-left:16px;
+  margin-bottom: 10px;
+  border:1px solid #008ECC;
+  border-radius: 4px;
+  background-color:#008ECC;
+  color: #f4f4f4;
+}
+input[type='submit']:hover
+{
+  cursor: pointer;
+  background-color:#0080FF;
+}
+input[type='submit']:focus
+{
+  cursor: pointer;
+  background-color:#0080FF;
+  outline-color: #0080FF;
+}
+input[type='submit']
+{
+font-family:Font;
+font-size: 16px;
+outline: none;
+}
+input[type='submit']:hover
+{
+  cursor: pointer;
+  background-color:#0080FF;
+}
+input[type='submit']:focus
+{
+  cursor: pointer;
+  background-color:#0080FF;
+  outline-color: #0080FF;
+}
+input[type=''],[type='text'],.currency
+{
+  padding:8px;
+  text-decoration: none;
+  border-radius: 4px;
+  border: 1px solid #C8C8C8;
+  text-align:justify;
+  outline: none;
+
+}
+input[type='text']:focus
+{
+  outline: none;
+  border: 1px solid #0080FF;
+}
+.ProductBox
+{
+  margin-top: 20px;
+  border: 1px solid #000000;
+  width: 400px;
+  border-radius: 4px;
+
+
+}
+.label
+{
+  top: 0px;
+  background-color:#008ECC;
+  padding:16px;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.Empty
+{
+  background-color: #b80f0a;
+}
+.Search_code,.Search_name
+{
+  font-family:font;
+  width: 200px;
+}
+.Scrollbar
+{
+  position: sticky;
+  margin-left: 240px;
+  margin-top: -280px;
+}
+.Edit
+{
+border-radius:4px;
+cursor:pointer;
+padding: 10px;
+background-color: #b80f0a;
+border: 2px solid #b80f0a;
+color:#ffffff;
+}
+.Edit:hover
+{
+background-color: #7C0A02;
+border: 2px solid #7C0A02;
+}
+.Edit:focus
+{
+border: 2px solid #7C0A02;
+background-color: #7C0A02;
+outline-color: #7C0A02;
+}
